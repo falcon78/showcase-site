@@ -36,21 +36,28 @@ img{
 }
 
 
-@media (max-width: 365px){
+@media (max-width: 391px){
    nav{
        display: flex;
        flex-direction: column;
    } 
    .nav-image-div{
-       padding: 0px;
+       padding: 0;
    }
    .nav-ul{
        display: flex;
        flex-direction: column;
        flex-basis: 1px;
+       padding: 0;
    }
    nav ul li{
        align-self: center;
-       margin-right:  2.5em;
+       
    }
+}
+
+@media (min-width:365px){
+    .nav-ul{
+        padding-right: 30px;
+    }
 }
