@@ -116,9 +116,10 @@ input{
 
 .description-container{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-   
+    align-items: center;
 }
 
 .description{
@@ -132,12 +133,25 @@ input{
     overflow: hidden;
 }
 
-.video{
+#video{
     width: 80vw;
-    height: auto;
+    height: 40vh;
+    max-width: 800px;
     margin:0 auto;
     display: flex;
     justify-content: center;
+}
+
+.grid-container{
+    max-width: 800px;
+    display: grid;
+    background: white;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    
+}
+
+.product{
+    background: red;
 }
 
 @media (max-width: 391px){
@@ -187,4 +201,5 @@ input{
         display: flex;
         flex-direction: column; 
    }
+}
 }
