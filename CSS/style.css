@@ -3,9 +3,13 @@
 body{
     background-color: lightgreen;
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(../img/trianglify.svg)
+    background-image: url(../img/trianglify.svg);
 }
 
+P{
+    margin:0;
+    padding: 0;
+}
 #header{
     display: flex;
     justify-content: space-between;
@@ -109,7 +113,8 @@ input{
 }
 
 .description{
-
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 @media (max-width: 391px){
