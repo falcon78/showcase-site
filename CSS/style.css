@@ -23,8 +23,15 @@ body{
 .header-ul-list{
     display: flex;
     justify-content: space-around;
-    padding-right: 40px;
     width: 200px;
+    border-style:solid;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: lightsalmon;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 3px 6px 3px 6px;
 }
 
 #header-img{
@@ -103,6 +110,10 @@ input{
     font-size: 1.3rem;
 }
 
+.description{
+
+}
+
 @media (max-width: 391px){
    header{
        display: flex;
@@ -118,11 +129,11 @@ input{
        justify-content: space-around;
        width: 80vw;
        flex-basis: 1px; 
-       padding: 0;
+       padding: 3px 6px 3px 6px;;
        border-style:solid;
        border-radius: 15px;
        border-width: 2px;
-       border-color: purple;
+       border-color: lightsalmon;
        overflow: hidden;
    }
    .nav-link{
