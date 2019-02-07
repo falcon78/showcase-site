@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Changa');
+
 
 body{
     background-color: lightgreen;
@@ -145,13 +147,29 @@ input{
 .grid-container{
     max-width: 800px;
     display: grid;
-    background: white;
-    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    margin: 20px auto;
+    grid-gap: 20px;
+
+}
+.product{
+    background: #dcf2f0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0e96ad;
+}
+.product p{
+    margin:20px
     
 }
-
-.product{
-    background: red;
+.product-title{
+    margin:0px;
+    text-align: center;
+    padding:0 0 0 0;
+    background: #0e96ad;
+    font-size: 1.3rem;
+    font-family: 'Changa', sans-serif
+    
 }
 
 @media (max-width: 391px){
