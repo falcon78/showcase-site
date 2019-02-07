@@ -1,2 +1,6 @@
+HTMLとCSSの練習用に作ったFlexbox と CSS Grid レイアウトを使ったレスポンシブなプロダクト紹介サイト。
 
-A product showcase site that i made for practice. Nothing too fancy , just plain old html and css.
+これまで何回かFlexboxを使ってレスポンシブネスを実現していましたが、CSS Gridは使ったことなかったので今回使うことにしました。
+予想以上に簡単で、Floxboxよりも柔軟性があり結構使いやすったです。
+
+でもEdgeやIEとの互換性が悪いのであんまりGridだけに頼らないようにしないと。。。。
