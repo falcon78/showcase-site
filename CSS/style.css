@@ -84,7 +84,7 @@ input{
     width: 200px;
 }
 #submit{
-    box-shadow: 2px 1px 2px;
+    box-shadow: 2px 1px 2px lightseagreen;
     margin-left: 10px;
     width: 70px;
     padding: 6px 50px 6px 20px;
