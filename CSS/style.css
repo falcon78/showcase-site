@@ -3,7 +3,9 @@
 body{
     background-color: lightgreen;
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(../img/trianglify.svg);
+    background-image: url(../img/trianglify.png);
+    background-position: center;
+
 }
 
 P{
@@ -18,7 +20,7 @@ P{
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 1px 1px 10px lightseagreen;
+    box-shadow: 1px 1px 10px lightblue;
 }
 
 .header-ul-list{
@@ -28,7 +30,7 @@ P{
     border-style:solid;
     border-radius: 15px;
     border-width: 2px;
-    border-color: lightseagreen;
+    border-color: lightblue;
     overflow: hidden;
     margin-right: 10px;
     margin-left: 10px;
@@ -80,16 +82,16 @@ input{
 #customer-email-id{
     font-weight: bold;
     padding: 8px;
-    background: lightgoldenrodyellow;
+    background: lightblue;
     border-style: solid;
-    border-radius: 2px;
-    border-color: lightseagreen;
-    border-radius: 10px;
+    border-color: white;
+    border-radius: 30px;
     width: 200px;
 }
 #submit{
     box-shadow: 2px 1px 2px lightseagreen;
     margin-left: 10px;
+    margin-bottom: 20px;
     width: 70px;
     padding: 6px 50px 6px 20px;
     font-weight: bold;
@@ -113,8 +115,13 @@ input{
 }
 
 .description{
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    width: 80vw;
+    text-align: center;
+    padding: 10px;
+    margin:20px auto 30px auto;
+    background: lightblue;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 @media (max-width: 391px){
@@ -136,7 +143,6 @@ input{
        border-style:solid;
        border-radius: 15px;
        border-width: 2px;
-       border-color: lightseagreen;
        overflow: hidden;
    }
    .nav-link{
