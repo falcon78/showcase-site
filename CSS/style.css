@@ -14,13 +14,13 @@ P{
 }
 #header{
     display: flex;
+    background: lightseagreen;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 1px 1px 10px lightblue;
 }
 
 .header-ul-list{
@@ -130,6 +130,14 @@ input{
     background: lightblue;
     border-radius: 20px;
     overflow: hidden;
+}
+
+.video{
+    width: 80vw;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 391px){
